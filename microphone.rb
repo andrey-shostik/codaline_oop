@@ -1,4 +1,4 @@
-class Microphone
+class Microphone < Headset
   attr_accessor :frequency_band, :sensitivity
 
   def test_record
