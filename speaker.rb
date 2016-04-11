@@ -6,6 +6,7 @@ class Speaker < Headset
     sleep 3
     unless @frequency_band || @max_input_power == nil
       puts 'воспроизвидение успешно завершено'
+      puts 'good'
     end
   end
 end
